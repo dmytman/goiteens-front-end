@@ -1,0 +1,71 @@
+.main {
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  font-weight: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section {
+  width: 31%;
+  display: inline-block;
+  margin-right: 60px;
+  margin-bottom: 130px;
+  text-align: left;
+}
+.section:nth-child(2n + 2) {
+  margin: 0px;
+}
+.img1 {
+  width: 420px;
+  height: auto;
+  margin-bottom: 32px;
+}
+/* .section {
+  width: 474px;
+  display: inline-block;
+  margin-top: -500px;
+  margin-bottom: 300px;
+} */
+.img2 {
+  width: 419px;
+  height: 280px;
+  margin-bottom: 32px;
+}
+.img3 {
+  width: 422px;
+  height: 280px;
+  margin-bottom: 32px;
+}
+.img4 {
+  width: 419px;
+  height: 280px;
+  margin-bottom: 32px;
+}
+.img5 {
+  width: 422px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.img6 {
+  width: 419px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.sub_title {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+  font-weight: 300px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400px;
+  margin-bottom: 34px;
+}
+
+.text {
+  font-weight: 400px;
+}
