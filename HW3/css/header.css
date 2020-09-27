@@ -1,7 +1,7 @@
 .menu_list_item {
   display: inline-block;
   margin-right: 95px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   cursor: pointer;
 }
