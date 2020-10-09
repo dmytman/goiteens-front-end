@@ -1,0 +1,160 @@
+.title2{
+  margin-top: 100px;
+  font-size: 24pt;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+body{
+  margin-left: 360px;
+  margin-right: 360px;
+}
+
+.title_amazing_service{
+  font-size: 30px;
+  color:#333333;
+  text-align: center;
+  text-transform:uppercase;
+  font-family: "Montserrat", sans-serif;  
+}
+.boder_line{
+  border-bottom: 3px solid #f38181;
+  width: 60px;
+  margin:0 auto;
+}
+
+.wapper{
+  display: flex;
+ }
+.section1{
+  display: flex;
+  
+  padding: 45px;  
+}
+.section2{
+  display: flex;
+  padding: 45px;
+}
+.alarm_img{
+  width: 32px;
+  height: 31px;
+  margin-right: 29px;
+  margin-top: 47px;
+}
+.title_text{
+  margin-top: 46px;
+  text-transform:uppercase;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 14pt;
+  color: #404040;
+  margin-right: 72px;
+}
+.text_in_block{
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 15pt;
+  text-align: left;
+  width: 269px;
+  height: 39px;
+  display: inline-block;
+  margin-right: 72px;
+}
+
+p{
+  color: rgba(153, 153, 153, 255);
+}
+.title3{
+  margin-top: 92px;
+  font-size: 24pt;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.under_title{
+margin-top: 46px;
+font-size: 15pt;
+margin-left:130px;
+width: 941px;
+color: rgba(153, 153, 153, 255);
+text-align: center;
+font-family: 'Roboto-Regular', sans-serif;
+}
+
+.image3{
+  margin-top: 98px;
+}
+
+.menwithglasses{
+margin-right: 28px;
+}
+
+.menwithphotografy{
+margin-right: 27px;
+}
+
+
+.text_name_people{
+  display: flex;
+  text-transform:uppercase;
+  font-family: 'Montserrat-Regular', sans-serif;;
+font-size: 16px;
+text-align: center;
+
+}
+.name1{
+  margin-right: 139px; 
+    margin-left: 138px;
+    color: #595959;
+}
+.name2{
+margin-left: 97px;
+margin-right: 98px;
+color: #595959;
+
+}
+.name3{
+  margin-left: 149px;
+  margin-right: 134px;
+  color: #595959;
+
+}
+
+
+.under_name_people{
+  display: flex;
+  text-transform:uppercase;
+  font-family: 'Roboto', sans-serif;
+
+font-size: 14px;
+
+text-align: center;
+
+}
+.under_name1{
+
+  margin: 0;
+  
+
+  margin-right: 142px; 
+    margin-left: 132px;
+    color: #999999;
+}
+.under_name2{
+ 
+  margin: 0;
+  margin-top: -4px;
+
+margin-left: 128px;
+margin-right: 128px;
+color: #999999;
+
+}
+.under_name3{
+ 
+  margin: 0;
+  margin-top:-4px;
+
+  margin-left: 181px;
+  margin-right: 160px;
+  color: #999999;
+
+}
