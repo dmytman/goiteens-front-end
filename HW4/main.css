@@ -1,3 +1,11 @@
+.main{
+  margin-left: 360px;
+  margin-right: 360px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .title2{
   margin-top: 113px;
   font-size: 24pt;
@@ -5,11 +13,7 @@
   text-align: center;
   font-family: "Kaushan Script", cursive;
 }
-body{
-  margin-left: 360px;
-  margin-right: 360px;
-  width: 1200px;
-}
+
 
 .title_amazing_service{
   font-size: 30px;
@@ -27,42 +31,44 @@ body{
   content: ' ';
   margin-top: 42px;
 }
-
+.section_icon{
+  margin-top: 66px;
+}
 .wapper{
   display: flex;
+  width: 329px;
+  margin-bottom: 101px;
  }
 .section1{
   display: flex;
-  justify-content: space-between;
-}
-.section2{
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 1148px;
+  flex-wrap: wrap;
+  
 }
 .alarm_img{
   width: 32px;
   height: 31px;
-  margin-right: 29px;
-  margin-top: 67px;
+  margin-right: 29px; 
 }
 .title_text{
-  margin-top: 66px;
+  margin-bottom: 20px;
   text-transform:uppercase;
-  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: 'Montserrat 300', sans-serif;
   font-size: 14pt;
-  color: #404040;
-  
+  color: #333333;
+  text-align: left;
 }
 .text_in_block{
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 15pt;
   text-align: left;
   width: 269px;
-  height: 39px;
-  display: inline-block;
-  
 }
 
+.text_and_title{
+  width: 269px;
+}
 p{
   color: rgba(153, 153, 153, 255);
 }
@@ -74,13 +80,13 @@ p{
   font-family: "Kaushan Script", cursive;
 }
 .under_title{
-margin-top: 46px;
+
 font-size: 15pt;
 color: rgba(153, 153, 153, 255);
 text-align: center;
 font-family: 'Roboto-Regular', sans-serif;
 width: 941px;
-margin:0 auto;
+margin:46px auto;
 margin-bottom: 90px;
 
 }
@@ -94,7 +100,6 @@ margin-bottom: 90px;
 
 .card_section2 {
   width: 380px;
-  margin-right: 28px;
   margin-bottom: 82px;
 }
 
