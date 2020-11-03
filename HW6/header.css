@@ -1,0 +1,50 @@
+.header {
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  }
+ .header_wrapper{
+    margin: 0 auto;
+    width: 940px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.golden_title{
+font-size: 26pt;
+font-family: 'Dancing Script', cursive;
+text-transform: capitalize;
+font-weight: 700;
+}
+.title_link{
+  color: #fed136;
+}
+.menu_navigation{
+  width: 480px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu_item{
+  font-size: 14pt;
+  font-weight: 600;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  }
+.menu_item_link:hover {
+    color: #fed136;
+  
+  }
+  a {
+    text-decoration: none;
+     color:#222222;
+  }
+
+

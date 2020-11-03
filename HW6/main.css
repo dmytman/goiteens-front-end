@@ -1,0 +1,174 @@
+.main{
+    text-align: center;
+    margin: 0 auto;
+}
+.section_service_menu{
+    text-align: center;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.services_title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    font-family: 'Roboto Slab 600', serif;
+    text-align: center;
+    padding-top: 192px;
+    margin-bottom: 19px;
+}
+
+.under_title{
+    font-family: 'Roboto Slab 400', serif;    
+    font-style: italic;
+    font-size: 15px;
+    color: #c7c7c7;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.flex_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.card {
+    width: 274px;
+    margin-bottom: 115px;
+}
+.img_wrapper{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imd_card_basket{
+    width: 40px;
+    height: 40px;
+}
+.imd_card_laptop{
+    width: 41px;
+    height: 35px;
+}
+.imd_card_locked{
+    width: 29px;
+    height: 38px;
+}
+
+
+.title_under_img{
+    margin-top: 28px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Roboto Slab 700', serif;
+    margin-bottom: 18px;
+}
+
+
+
+.subtitle_card{
+    font-style: 14px;    
+    color: #c7c7c7;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab 400', serif;
+    
+}
+
+
+
+
+.section_contact_us{
+    text-align: center;
+    background-color: #222222;
+    background-image: url(./Mapimage@1X.png);
+    background-repeat: no-repeat;
+    background-size: 614px 537px;
+    background-position: top 120px right 0;
+}
+.contact_us{
+    /* width: 940px; */
+    text-align: center;
+    padding-top: 115px;
+    margin: 0 auto;
+}
+
+.title_contact_us{
+    text-transform: uppercase;
+    font-size: 40px;
+    color:#ffffff;
+    font-family: 'Roboto Slab 700', serif;
+    display: block;
+}
+
+.under_title_contact_us{
+    font-family: 'Roboto Slab 400', serif;
+    font-size: 16px;
+    color:#737373;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 75px;
+    font-style: italic;
+}
+
+.form{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 115px;
+}
+.input{
+    background-color: #fff;
+    height: 50px;
+    width: 455px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: none;
+}
+.input::placeholder{
+    color:#bbbbbb;
+}
+.message {
+    background-color: #fff;
+    width: 455px;
+    height: 210px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.message::placeholder {
+    color: #bbbbbb;
+}
+.button{
+    margin: 0 auto;
+    font-size: 18pt;
+    color: #ffffff;
+    font-family: 'Montserrat',  sans-serif;
+    text-transform: uppercase;
+    padding: 25px 47px;
+    background-color: #fed136;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    display: block;
+}
