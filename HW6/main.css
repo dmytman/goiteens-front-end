@@ -76,7 +76,6 @@
 .subtitle_card{
     font-style: 14px;    
     color: #c7c7c7;
-    text-transform: capitalize;
     font-family: 'Roboto Slab 400', serif;
     
 }
@@ -105,6 +104,7 @@
     color:#ffffff;
     font-family: 'Roboto Slab 700', serif;
     display: block;
+    margin-bottom: 19px;
 }
 
 .under_title_contact_us{
@@ -112,7 +112,6 @@
     font-size: 16px;
     color:#737373;
     text-align: center;
-    text-transform: capitalize;
     margin-bottom: 75px;
     font-style: italic;
 }
