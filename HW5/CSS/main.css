@@ -1,0 +1,239 @@
+.main_site {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.title_section_main{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.under_title_main{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#333333;
+}
+
+.under_title_main::after{
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    content: '';
+    display: block;
+    margin: 42px auto;
+}
+
+
+
+
+
+.wrapper_main_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    display: flex;
+    width: 329px;
+    margin-bottom: 101px;
+}
+.card1::before  {
+    background: url('../IMAGES/ALARM.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.card2::before  {
+    background: url('../IMAGES/BOOK.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.card3::before  {
+    background: url('../IMAGES/COMPUTER_OK.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.card4::before  {
+    background: url('../IMAGES/HOME.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.card5::before  {
+    background: url('../IMAGES/LINE_GRAPH.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.card6::before  {
+    background: url('../IMAGES/QR.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+
+.wrapper_cards_text {
+    text-align: left;
+    width: 269px;
+    margin-left: 29px;
+}
+
+.title_card{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.text_card{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+
+.text_under_title_main{
+    font-size: 15px;
+    width: 941px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+.wrapper_people_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.people_card {
+    display: block;
+    width: 380px;
+    margin-right: 28px;
+    margin-bottom: 82px;
+}
+
+.card_people_shadow {
+    position: relative;
+}
+
+.photo_people {
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.card_people_shadow:hover > .photo_people {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
+}
+
+.wrapper_icons_social_network {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card_people_shadow:hover > .wrapper_icons_social_network {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+-webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+-moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+}
+
+.social_program {
+    display: none;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 324px;
+}
+
+
+.card_people_shadow:hover .social_program {
+    display: block;
+}
+
+.social_link {
+    
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    display: inline-block;
+    position: relative;
+    margin-right: 1px;
+}
+
+ .social_link:last-child {
+    margin-right: 0;
+} 
+
+.social_link:hover {
+    background-color: #95e1d3;
+}
+
+.link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_name_people {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.text_under_name {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
