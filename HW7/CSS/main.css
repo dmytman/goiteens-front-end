@@ -1,0 +1,230 @@
+.main{
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.setion_main {
+    margin: 0 auto 58px 0;
+    text-align: center;
+    background-color: #fff;
+}
+.title_name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color:#333333;
+    padding-bottom: 31px;
+    padding-top: 70px;
+}
+
+.wrapper_card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 914px;
+}
+
+.card1 {
+    order: 1;
+}
+.card2 {
+    order: 2;
+}
+
+.card3 {
+    order: 3;
+}
+
+.card4 {
+    order: 4;
+}
+
+
+
+
+
+
+.img_icon, .img_icon1, .img_icon2, .img_icon3 {
+    width: 122px;
+    height: 122px;
+    background-image: url('../IMAGES/people/Layer_glasses.png');
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img_icon1 {
+    background-image: url('../IMAGES/people/Layer_men.png');
+}
+
+.img_icon2 {
+    background-image: url('../IMAGES/people/Layer_women.png');
+}
+
+.img_icon3 {
+    background-image: url('../IMAGES/people/Layer_women_glasses.png');
+}
+
+.wrapper_icon, .wrapper_icon1, .wrapper_icon2, .wrapper_icon3 {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #ff4e50;
+    border: 3.5px solid #fff;
+    position: absolute;
+    top: 73.77%;
+    left: 73.77%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_icon1 {
+    background-color: #ffa507;
+}
+
+.wrapper_icon2 {
+    background-color: #1cd7ad;
+}
+
+.wrapper_icon3 {
+    background-color: #4e73db;
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+}
+
+.title_card {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.text_card {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+   width: 217px;
+}
+
+.footer {
+    margin-top: 39px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ff4e50;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #ff4e50;
+    padding: 12px 30px;
+
+}
+
+
+
+/* TABLET*/
+
+@media screen and (max-width: 768px) {
+
+    .main {
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .title_name {
+        padding-top: 72px;
+    }
+
+    .setion_main {
+        margin-bottom: 30px;
+    }
+    
+  .wrapper_card {
+    margin: 0 auto;
+    text-align: center;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+
+    }
+
+    .card1, .card2, .card3, .card4 {
+        margin: 0 0 56px 0;
+        width: 217px;
+    }
+
+    
+    
+    .card1 {
+        order: 2;
+    }
+    
+    .card2 {
+        order: 1;
+    }
+
+    .card3 {
+        order: 3;
+    }
+    
+    .card4 {
+        order: 1;
+    }
+    
+    .text_card {
+        padding: 0;
+    }
+ 
+    .footer {
+        padding: 16px 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .card1, .card2, .card3, .card4 {
+        margin: 0 0 26px 0;
+        width: 100%;
+    }
+    
+    .footer {
+        padding: 12px 74px;
+    }
+
+
+    .text_card {
+        width: 100%;
+    }
+
+    .card1 {
+        order: 5;
+    }
+    
+    .card2 {
+        order: 4;
+    }
+
+    .card3 {
+        order: 3;
+    }
+    
+    .card4 {
+        order: 1;
+    }
+    
+    .text_card {
+        padding: 0;
+    }
+}
+
